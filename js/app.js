@@ -50,10 +50,10 @@ Price: $$$
 Append this element to the div with the id of 
 "text4"*/
 
-var kam = document.createElement("div");
-kam.id = "price4";
-kam.innerHTML = "Price: $$$";
-text4.appendChild(kam);
+var kamPrice = document.createElement("div");
+kamPrice.id = "price4";
+kamPrice.innerHTML = "Price: $$$";
+text4.appendChild(kamPrice);
 
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
@@ -69,6 +69,11 @@ Hours: 9am - 10pm Sun - Sat
 Append this element to the div with the id of 
 "text4"
 */
+
+var kamAddy = document.createElement("div");
+kamAddy.id = "addy4";
+kamAddy.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(kamAddy);
 
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
