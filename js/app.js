@@ -50,6 +50,11 @@ Price: $$$
 Append this element to the div with the id of 
 "text4"*/
 
+var kam = document.createElement("div");
+kam.id = "price4";
+kam.innerHTML = "Price: $$$";
+text4.appendChild(kam);
+
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
 Address: 1620 N. School St, Honolulu, HI 96817
