@@ -7,6 +7,9 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+var rating = document.getElementById("rating1");
+rating.innerHTML = "Rating: 5 Stars";
+
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
