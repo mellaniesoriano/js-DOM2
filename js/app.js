@@ -7,8 +7,8 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
-var rating = document.getElementById("rating1");
-rating.innerHTML = "Rating: 5 Stars";
+var kap = document.getElementById("rating1");
+kap.innerHTML = "Rating: 5 Stars";
 
 
 //2. Sunrise Restaurant
@@ -16,6 +16,12 @@ rating.innerHTML = "Rating: 5 Stars";
 
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
+
+var sunrisePrice = document.getElementById("price2");
+sunrise.innerHTML = "Price: $$$";
+
+var sunriseAdd = document.getElementById("addy2");
+sunriseAdd.innerHTML = "Address: 525 Kapahulu Ave, Honolulu,, HI 96815";
 
 
 //3. Ramen Nakamura
