@@ -86,6 +86,11 @@ I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
 
+var kamPara = document.createElement("p");
+kamPara.id = "update4";
+kamPara.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(kamPara);
+
 
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
