@@ -119,3 +119,8 @@ deathName.id = "name5";
 deathName.innerHTML = "5. The Death Star Care";
 text5.appendChild(deathName);
 
+var deathRating = document.createElement("div");
+deathRating.id = "rating5";
+deathRating.innerHTML = "Rating: 2 Stars";
+text5.appendChild(deathRating);
+
