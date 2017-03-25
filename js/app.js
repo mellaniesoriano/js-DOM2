@@ -128,3 +128,13 @@ var deathPrice = document.createElement("div");
 deathPrice.id = "price5";
 deathPrice.innerHTML = "Price: $$";
 text5.appendChild(deathPrice);
+
+var deathAddy = document.createElement("div");
+deathAddy.id = "addy5";
+deathAddy.innerHTML = "Address: A galaxy far, far away";
+text5.appendChild(deathAddy);
+
+var deathHours = document.createElement("div");
+deathHours.id = "hours5";
+deathHours.innerHTML = "Hours: We never close.";
+text5.appendChild(deathHours);
