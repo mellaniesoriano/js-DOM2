@@ -114,3 +114,8 @@ hours5: Hours: We never close.
 Append the div elements to the div id "text5"
 */
 
+var deathName = document.createElement("div");
+deathName.id = "name5";
+deathName.innerHTML = "5. The Death Star Care";
+text5.appendChild(deathName);
+
