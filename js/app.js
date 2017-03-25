@@ -18,7 +18,8 @@ Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
 var sunrisePrice = document.getElementById("price2");
-sunrise.innerHTML = "Price: $$$";
+sunrisePrice.innerHTML = "Price: $$$";
+
 
 var sunriseAdd = document.getElementById("addy2");
 sunriseAdd.innerHTML = "Address: 525 Kapahulu Ave, Honolulu,, HI 96815";
@@ -32,6 +33,11 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
+
+var ramen = document.createElement("div");
+ramen.id = "hours";
+ramen.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(ramen);
 
 
 //4. Kam Bowl
