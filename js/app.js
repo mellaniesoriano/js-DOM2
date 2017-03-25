@@ -124,3 +124,7 @@ deathRating.id = "rating5";
 deathRating.innerHTML = "Rating: 2 Stars";
 text5.appendChild(deathRating);
 
+var deathPrice = document.createElement("div");
+deathPrice.id = "price5";
+deathPrice.innerHTML = "Price: $$";
+text5.appendChild(deathPrice);
