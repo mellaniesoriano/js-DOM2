@@ -75,6 +75,11 @@ kamAddy.id = "addy4";
 kamAddy.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
 text4.appendChild(kamAddy);
 
+var kamHours = document.createElement("div");
+kamHours.id = "hours4";
+kamHours.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(kamHours);
+
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
 I'd leave a blank space for this oxtail soup!
